@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from utils.fix_old_keras_model import fix_old_keras_model
 from utils.preprocess_image import preprocess_image
 
-model_path = "models/cars.h5" # CHANGE TO YOUR MODEL
+model_path = "models/keras_model.h5" # CHANGE TO YOUR MODEL
 labels_path = "models/labels.txt" # CHANGE TO YOUR LABELS FILE
 image_folder = "images/"
 output_folder = "output/"
